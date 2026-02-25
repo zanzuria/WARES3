@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory and Sales Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Inventory Internal Tool</div>
+    <nav id="navLinks" class="nav-links"></nav>
+    <div class="global-actions">
+      <button id="saveBtn">Save</button>
+      <label class="load-label">
+        Load
+        <input id="loadInput" type="file" accept="application/json" hidden />
+      </label>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <script src="app.js"></script>
+</body>
+</html>
